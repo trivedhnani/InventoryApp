@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow>
+
+            <TextView
+                style="@style/CategoryStyle"
+                android:layout_marginLeft="8dp"
+                android:text="@string/name" />
+
+            <EditText
+                android:id="@+id/proname"
+                style="@style/EditorFieldStyle"
+                android:layout_marginLeft="100dp"
+                android:hint="@string/name_hint" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/CategoryStyle"
+                android:layout_marginLeft="8dp"
+                android:text="@string/price" />
+
+            <EditText
+                android:id="@+id/price"
+                style="@style/EditorFieldStyle"
+                android:layout_width="99dp"
+                android:inputType="number"
+                android:layout_marginLeft="100dp"
+                android:hint="@string/price" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/CategoryStyle"
+                android:layout_marginLeft="8dp"
+                android:text="@string/quantity" />
+
+            <EditText
+                android:id="@+id/quantity"
+                style="@style/EditorFieldStyle"
+                android:layout_width="99dp"
+                android:inputType="number"
+                android:layout_marginLeft="100dp"
+                android:hint="@string/quantity_hint" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/CategoryStyle"
+                android:layout_marginLeft="8dp"
+                android:text="@string/sup_name" />
+
+            <EditText
+                android:id="@+id/supname"
+                style="@style/EditorFieldStyle"
+                android:layout_width="99dp"
+                android:layout_marginLeft="100dp"
+                android:hint="@string/sup_name_hint" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/CategoryStyle"
+                android:layout_marginLeft="8dp"
+                android:text="@string/sup_num" />
+
+            <EditText
+                android:id="@+id/supnum"
+                style="@style/EditorFieldStyle"
+                android:layout_width="99dp"
+                android:layout_marginLeft="100dp"
+                android:hint="@string/sup_num_hint"
+                android:inputType="phone" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

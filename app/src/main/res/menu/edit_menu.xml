@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".EditorActivity">
+    <item
+        android:id="@+id/action_save"
+        android:icon="@drawable/checklist_done"
+        android:title="@string/save"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/editpro"
+        android:title="@string/editor_activity_title_edit_product">
+
+    </item>
+    <item
+        android:id="@+id/action_delete"
+        android:title="@string/delete_editor"
+        app:showAsAction="never" />
+</menu>
